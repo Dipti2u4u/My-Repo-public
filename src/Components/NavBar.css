@@ -1,0 +1,33 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.header {
+    /*border : 1px solid red;*/
+    background-color: rgb(129, 184, 21);
+    height : 120px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.links li {
+    display: inline-block;
+    font-size: x-large;
+    padding: 40px 30px;
+    background-color: rgb(129, 184, 21);
+}
+/*.links li  {
+    text-decoration: none;
+    color: black;
+}*/
+.Logo {
+    font-size: 40px;
+    padding: 30px 30px;
+    font-weight: bold;
+    color : black;
+    background-color: rgb(129, 184, 21) ;
+}
